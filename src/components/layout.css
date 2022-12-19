@@ -1,0 +1,47 @@
+
+.ant-row-rtl #components-layout-demo-top-side-2 {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.site-layout-background {
+    background: #fff;
+}
+
+
+.ant-layout-sider-children{
+    background-color: white;
+}
+
+.ant-layout-sider-trigger{
+    background-color: white;
+    margin-right: 3px;
+}
+
+.anticon-left{
+    color: black;
+    font-size: large;
+}
+
+.anticon-right{
+    color: black;
+    font-size: large;
+}
+
+.ant-menu-sub.ant-menu-inline{
+    background-color: white;
+}
+
+.layout{
+    height: 100vh;
+}

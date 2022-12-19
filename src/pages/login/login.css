@@ -1,0 +1,71 @@
+body{
+    background-color: #f2f6ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: #3a5783;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin: 0;
+}
+
+p{
+    color: #92a3ba;
+}
+
+input{
+    width: 375px;
+    height: 35px;
+    margin: 0 5px 0 10px;
+    border: none;
+}
+
+input::placeholder{
+    color: #7d91ad;
+}
+
+input:active, input:focus, input:hover{
+    outline: none;
+}
+
+button{
+    width: 465px;
+    height: 45px;
+    background-color: #267fff;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+}
+
+.icon{
+    font-size: 15px;
+    color: #267fff;
+}
+
+.icon-lock{
+    font-size: 16px;
+    color: #267fff;
+}
+
+.login-container{
+    background-color: white;
+    padding: 35px 35px 50px;
+    border-radius: 20px;
+}
+
+.input-container{
+    /* border: 0.3px solid #267fff; */
+    margin: 20px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    box-shadow: 0px 0px 1px #549bff;
+}
+
+.logo{
+    margin-bottom: 30px;
+}

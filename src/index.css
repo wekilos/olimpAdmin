@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  font-family: "segoeui" ;
+}
+*{
+  font-family:"segoeui"
+}
+.ant-modal-content {
+  border-radius: 10px !important;
+  /* background: red; */
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* m-plus-rounded-1c-300 - vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: "segoeui";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/segoeui.ttf"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/segoeui.ttf")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("./fonts/segoeui.ttf")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./fonts/segoeui.ttf")
+      format("ttf"),
+    /* Modern Browsers */
+      url("./fonts/segoeui.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/segoeui.ttf")
+      format("svg"); /* Legacy iOS */
+}
+
+
+.ant-row-rtl #components-layout-demo-top-side-2 {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    background-color:"blue";
+    
+}
+
+.site-layout-background {
+    background: #fff;
+}
+
+
+.ant-layout-sider-children{
+    background-color: white;
+}
+
+.ant-layout-sider-trigger{
+    background-color: white;
+    margin-right: 3px;
+}
+
+.anticon-left{
+    color: black;
+    font-size: large;
+}
+
+.anticon-right{
+    color: black;
+    font-size: large;
+}
+
+.ant-menu-sub.ant-menu-inline{
+    background-color: white;
+}
+
+.layout{
+    height: 100vh;
+}
+
+.main_content {
+  background-color: #F3F3F3;
+  /* margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 10px; */
+
+  height: 100% !important;
+  min-height: 100vh;
+}
